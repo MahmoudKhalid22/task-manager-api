@@ -15,7 +15,7 @@ const options = {
         email: "mahmoud0122549@gmail.com",
       },
     },
-    servers: [{ url: "http://localhost:4000/" }],
+    servers: [{ url: "https://task-app-3ycs.onrender.com/" }],
   },
   apis: ["./src/router/*.js", "./src/model/*.js"],
 };

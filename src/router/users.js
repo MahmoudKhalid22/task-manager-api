@@ -70,6 +70,15 @@
  *          password:
  *             type: string
  *             description: the password of the user
+ *      Task:
+ *        type: object
+ *        properties:
+ *          task:
+ *            type: string
+ *            description: the task that user added
+ *          completed:
+ *             type: boolean
+ *             description: the task is completed or not
  *
  */
 /**
@@ -248,7 +257,6 @@
  *              schema:
  *                type: string
  *                example: "Successfully deleted user"
- *
  */
 
 const router = require("express").Router();
